@@ -1,0 +1,148 @@
+:root{--bg:#07111f;--card:#0e1b2e;--card2:#13243b;--text:#f5f7fb;--muted:#9fb0c7;--accent:#55d6be;--accent2:#6ea8fe;--danger:#ff6b7a;--gold:#ffd166}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(circle at 20% 0%,#17355b 0,#07111f 42%,#050b14 100%);color:var(--text);min-height:100vh}
+.wrap{max-width:900px;margin:auto;padding:24px 16px 40px}.top{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:18px}.brand{font-weight:800;font-size:24px}.brand span{color:var(--accent)}button,select,input{font:inherit}.pill{padding:8px 12px;border:1px solid #29405e;border-radius:999px;background:#0b1728;color:var(--muted)}
+.card{background:linear-gradient(180deg,#102038,#0b1728);border:1px solid #243a58;border-radius:24px;padding:22px;box-shadow:0 20px 50px #0005}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:18px}.stat{background:#0a1626;border:1px solid #203651;border-radius:16px;padding:12px;text-align:center}.stat b{display:block;font-size:21px}.stat small{color:var(--muted)}
+.controls{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:18px}.control{background:#0a1626;border:1px solid #203651;border-radius:14px;padding:10px}.control label{display:block;color:var(--muted);font-size:12px;margin-bottom:5px}.control select{width:100%;background:#0a1626;color:#fff;border:0;outline:0}
+.question{text-align:center;padding:26px 12px}.label{color:var(--muted);font-size:14px}ruby rt{font-size:.28em;color:var(--accent);font-weight:700;letter-spacing:0}.word{font-size:clamp(38px,8vw,70px);font-weight:900;letter-spacing:1px;margin:10px 0 6px}.hint{color:var(--muted);min-height:22px}
+.answers{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:18px}.answer{border:1px solid #294563;background:#12243c;color:#fff;border-radius:16px;padding:17px 14px;cursor:pointer;transition:.15s;font-weight:650}.answer:hover{transform:translateY(-2px);border-color:#4e739d}.answer.correct{background:#123e38;border-color:var(--accent)}.answer.wrong{background:#44212b;border-color:var(--danger)}.next{width:100%;margin-top:14px;padding:14px;border:0;border-radius:14px;background:var(--accent);color:#05201a;font-weight:900;cursor:pointer}.next:disabled{opacity:.4;cursor:not-allowed}.footer{display:flex;justify-content:space-between;gap:10px;margin-top:15px;color:var(--muted);font-size:12px}
+.progress{height:7px;background:#081321;border-radius:99px;overflow:hidden;margin-top:16px}.bar{height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0%;transition:.25s}
+#result{display:none;text-align:center}.bigscore{font-size:60px;font-weight:900;color:var(--gold)}.restart{padding:13px 22px;border:0;border-radius:14px;background:var(--accent);font-weight:900;cursor:pointer}
+@media(max-width:650px){.stats{grid-template-columns:repeat(2,1fr)}.controls,.answers{grid-template-columns:1fr}.top{align-items:flex-start;flex-direction:column}}
+
+:root{
+  --cozy-bg:#f7efe3;--cozy-card:#fffaf2;--cozy-text:#5b4636;--cozy-accent:#c78b67;
+  --cozy-soft:#ead7c5;--cozy-green:#8fa58a;
+}
+body{
+  background:
+    radial-gradient(circle at 15% 15%,rgba(255,255,255,.75),transparent 28%),
+    radial-gradient(circle at 85% 10%,rgba(234,215,197,.55),transparent 30%),
+    linear-gradient(135deg,var(--cozy-bg),#f3e4d4)!important;
+  color:var(--cozy-text)!important;
+}
+.card,.panel,.game-card,.question-card,.modal{
+  background:rgba(255,250,242,.92)!important;
+  border-color:var(--cozy-soft)!important;
+  box-shadow:0 12px 30px rgba(91,70,54,.10)!important;
+}
+button{
+  border-radius:14px!important;
+}
+#cozyMusic{
+  position:fixed;left:78px;top:16px;z-index:99999;width:260px;padding:12px 14px;
+  background:rgba(255,250,242,.96);border:1px solid var(--cozy-soft);border-radius:18px;
+  box-shadow:0 10px 28px rgba(91,70,54,.16);font-family:inherit;color:var(--cozy-text);
+  backdrop-filter:blur(8px)
+}
+.musicTitle{font-weight:800;font-size:13px;margin-bottom:7px}
+.musicRow{display:flex;gap:6px;align-items:center}
+.musicRow button{padding:7px 9px;border:1px solid var(--cozy-soft);background:#fff;color:var(--cozy-text);cursor:pointer}
+#trackName{margin-top:7px;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.8}
+
+#themeToggle{
+  position:fixed;right:14px;bottom:145px;z-index:100000;
+  width:48px;height:48px;border-radius:50%!important;border:1px solid #ead7c5;
+  background:#fffaf2;color:#5b4636;font-size:22px;cursor:pointer;
+  box-shadow:0 8px 22px rgba(91,70,54,.16);
+  display:flex;align-items:center;justify-content:center;
+  transition:transform .2s,background .2s;
+}
+#themeToggle:hover{transform:scale(1.08)}
+
+body.dark-mode{
+  background:
+    radial-gradient(circle at 15% 15%,rgba(80,70,95,.32),transparent 28%),
+    radial-gradient(circle at 85% 10%,rgba(48,55,80,.35),transparent 30%),
+    linear-gradient(135deg,#171722,#252334)!important;
+  color:#eee8df!important;
+}
+body.dark-mode .card,
+body.dark-mode .panel,
+body.dark-mode .game-card,
+body.dark-mode .question-card,
+body.dark-mode .modal{
+  background:rgba(35,34,47,.94)!important;
+  border-color:#4a4657!important;
+  color:#eee8df!important;
+  box-shadow:0 12px 30px rgba(0,0,0,.28)!important;
+}
+body.dark-mode button{
+  color:#eee8df;
+}
+body.dark-mode #cozyMusic{
+  background:rgba(35,34,47,.96);
+  border-color:#4a4657;
+  color:#eee8df;
+}
+body.dark-mode .musicRow button{
+  background:#2b2938;
+  border-color:#4a4657;
+  color:#eee8df;
+}
+body.dark-mode #themeToggle{
+  background:#2b2938;color:#ffe8a3;border-color:#4a4657;
+}
+@media(max-width:600px){
+  #themeToggle{bottom:135px;right:12px;width:44px;height:44px}
+  #musicBurger{left:12px;top:12px;width:46px;height:46px}
+}
+
+#musicBurger{
+  position:fixed;left:16px;top:16px;z-index:100000;
+  width:50px;height:50px;border-radius:15px!important;
+  border:1px solid var(--cozy-soft,#ead7c5);
+  background:#fffaf2;color:#5b4636;cursor:pointer;
+  box-shadow:0 8px 22px rgba(91,70,54,.16);
+  display:none;align-items:center;justify-content:center;
+  transition:transform .25s ease,box-shadow .25s ease;
+  animation:burgerFloat 3s ease-in-out infinite;
+}
+#musicBurger:hover{
+  transform:scale(1.08) rotate(-2deg);
+  box-shadow:0 12px 28px rgba(91,70,54,.22);
+}
+#musicBurger .burgerIcon{
+  width:25px;height:18px;display:flex;flex-direction:column;
+  justify-content:space-between;
+}
+#musicBurger .burgerIcon span{
+  display:block;height:3px;border-radius:4px;background:currentColor;
+  transition:transform .25s ease,opacity .2s ease,width .25s ease;
+}
+#musicBurger:hover .burgerIcon span:nth-child(1){width:19px}
+#musicBurger:hover .burgerIcon span:nth-child(3){width:19px;margin-left:6px}
+@keyframes burgerFloat{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-4px)}
+}
+#cozyMusic.collapsed{display:none!important}
+#musicHide{
+  float:right;border:0!important;background:transparent!important;
+  color:inherit;font-size:16px;cursor:pointer;padding:0 3px;
+}
+body.dark-mode #musicBurger{
+  background:#2b2938;color:#eee8df;border-color:#4a4657;
+}
+
+/* Song bar rolling/sliding animation */
+#cozyMusic{
+  transform-origin: top left;
+  animation-duration:.38s;
+  animation-timing-function:cubic-bezier(.22,.8,.25,1);
+  animation-fill-mode:both;
+}
+#cozyMusic.music-opening{
+  animation-name:musicRollOpen;
+}
+#cozyMusic.music-closing{
+  animation-name:musicRollClose;
+}
+@keyframes musicRollOpen{
+  0%{opacity:0;transform:translateX(-45px) scaleX(.35) scaleY(.82) rotate(-2deg);transform-origin:left center}
+  55%{opacity:1;transform:translateX(8px) scaleX(1.04) scaleY(1.02) rotate(1deg);transform-origin:left center}
+  100%{opacity:1;transform:translateX(0) scaleX(1) scaleY(1) rotate(0);transform-origin:left center}
+}
+@keyframes musicRollClose{
+  0%{opacity:1;transform:translateX(0) scaleX(1) scaleY(1) rotate(0);transform-origin:left center}
+  100%{opacity:0;transform:translateX(-45px) scaleX(.35) scaleY(.82) rotate(-2deg);transform-origin:left center}
+}
