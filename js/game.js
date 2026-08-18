@@ -1,0 +1,16 @@
+const $=id=>document.getElementById(id);
+let state=JSON.parse(localStorage.getItem('kotoba-v11')||'null')||{xp:0,level:1,coins:0,streak:0};
+let words=[],questions=[],index=0,current=null,answerText='';
+const need=()=>100+(state.level-1)*50;
+const save=()=>localStorage.setItem('kotoba-v11',JSON.stringify(state));
+function render(){ $('level').textContent=state.level;$('coins').textContent=state.coins;$('xpText').textContent=`${state.xp} / ${need()}`;$('xpBar').style.width=Math.min(100,state.xp/need()*100)+'%';$('round').textContent=questions.length?`${Math.min(index+1,questions.length)}/${questions.length}`:'0/0';}
+function jp(x){return x?.word||x?.kotoba||x?.japanese||x?.jp||x?.kanji||''}
+function id(x){return x?.meaning||x?.indonesian||x?.id||x?.arti||x?.translation||''}
+function gain(base){const n=base+Math.min(state.streak*5,25);state.xp+=n;let up=false;while(state.xp>=need()){state.xp-=need();state.level++;state.coins+=50;up=true}save();render();return[n,up]}
+function makeQuestions(){let count=$('questionCount').value==='all'?words.length:Number($('questionCount').value);questions=[...words].sort(()=>Math.random()-.5).slice(0,count);index=0;nextQuestion()}
+function nextQuestion(){if(index>=questions.length)return finish();$('feedback').textContent='';$('nextBtn').hidden=true;current=questions[index];answerText=id(current);$('question').textContent=jp(current);let others=words.filter(x=>x!==current&&id(x)).sort(()=>Math.random()-.5).slice(0,3).map(id);[answerText,...others].sort(()=>Math.random()-.5).forEach(v=>{let b=document.createElement('button');b.className='choice';b.textContent=v;b.onclick=()=>answer(b,v===answerText);$('choices').appendChild(b)});$('choices').innerHTML='';[answerText,...others].sort(()=>Math.random()-.5).forEach(v=>{let b=document.createElement('button');b.className='choice';b.textContent=v;b.onclick=()=>answer(b,v===answerText);$('choices').appendChild(b)});render()}
+function answer(btn,ok){[...$('choices').children].forEach(b=>b.disabled=true);if(ok){btn.classList.add('correct');state.streak++;let[g,up]=gain(20);$('feedback').textContent=`✅ Benar! +${g} XP`;if(up){$('rewardText').textContent=`🎁 +50 Coin • Kamu mencapai Level ${state.level}!`;$('levelUp').hidden=false}}else{btn.classList.add('wrong');state.streak=0;gain(0);$('feedback').textContent=`❌ Jawaban: ${answerText}`;[...$('choices').children].forEach(b=>{if(b.textContent===answerText)b.classList.add('correct')})}index++;save();render();$('nextBtn').hidden=false}
+function finish(){$('finishText').textContent=`Kamu menyelesaikan ${questions.length} soal. Level ${state.level} • ${state.xp} XP • 🪙 ${state.coins} Coin`;$('finish').hidden=false}
+$('startBtn').onclick=()=>{$('finish').hidden=true;makeQuestions()};
+$('nextBtn').onclick=nextQuestion;$('levelUpClose').onclick=()=>{$('levelUp').hidden=true;if(index<questions.length)nextQuestion();else finish()};$('finishClose').onclick=()=>{$('finish').hidden=true;makeQuestions()};
+fetch('data/kotoba.json').then(r=>r.json()).then(d=>{words=Array.isArray(d)?d:(d.words||d.data||[]);render()}).catch(()=>{$('question').textContent='Data kotoba tidak terbaca.'});render();
