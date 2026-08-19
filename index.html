@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#241b2b">
+<title>Ground Handling Kotoba — 日本語</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="ambient" aria-hidden="true">
+  <div class="moon"></div>
+  <div class="mountain m1"></div><div class="mountain m2"></div>
+  <div class="torii"><i></i><b></b><em></em></div>
+  <div class="lantern l1">🏮</div><div class="lantern l2">🏮</div>
+  <div class="sakura sakura-a">✿</div><div class="sakura sakura-b">✿</div><div class="sakura sakura-c">✿</div>
+  <div class="petals" id="petals"></div>
+</div>
+
+<header class="appbar">
+  <div class="brand-wrap">
+    <div class="brand-mark">✈</div>
+    <div><div class="brand">Kotoba <span>Ground Handling</span></div><div class="brand-sub">日本語トレーニング · Japanese Training</div></div>
+  </div>
+  <button class="menu-button" id="menuButton" type="button" aria-label="Buka menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</header>
+
+<div class="menu-overlay" id="menuOverlay"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="drawer-head"><div><div class="drawer-kana">言葉</div><strong>Menu Utama</strong></div><button id="closeMenu" class="icon-btn" type="button">✕</button></div>
+  <div class="drawer-profile" id="drawerProfile">
+    <div class="avatar">✈</div><div><small>Ground Handler</small><b id="drawerLevel">Lv. 1</b></div><span class="coin-mini">🪙 <b id="drawerCoins">0</b></span>
+  </div>
+  <div class="drawer-section">
+    <div class="section-label">MAIN</div>
+    <button class="drawer-item" data-panel="profile">👤 <span>Profil</span><small>›</small></button>
+    <button class="drawer-item" data-panel="stats">📊 <span>Statistik</span><small>›</small></button>
+  </div>
+  <div class="drawer-section">
+    <div class="section-label">LATIHAN</div>
+    <div class="controls">
+      <div class="control-pick" data-select="roundSize">
+        <div><span class="control-kana">問題数</span><b>Jumlah soal</b><small id="roundSizeLabel">10 soal</small></div><span>⌄</span>
+      </div>
+      <div class="control-pick" data-select="part">
+        <div><span class="control-kana">セクション</span><b>Bagian</b><small id="partLabel">Semua Part</small></div><span>⌄</span>
+      </div>
+      <div class="control-pick" data-select="mode">
+        <div><span class="control-kana">モード</span><b>Mode</b><small id="modeLabel">Jepang → pilih arti</small></div><span>⌄</span>
+      </div>
+    </div>
+    <select id="roundSize" class="native-select"><option value="5">5 soal</option><option value="10" selected>10 soal</option><option value="20">20 soal</option><option value="30">30 soal</option><option value="50">50 soal</option><option value="ALL">Semua soal</option></select>
+    <select id="part" class="native-select"><option value="ALL">Semua Part</option><option>PART 2</option><option>PART 3</option><option>PART 4</option></select>
+    <select id="mode" class="native-select"><option value="jp-id">Jepang → pilih arti</option><option value="id-jp">Indonesia → pilih kotoba Jepang</option></select>
+  </div>
+  <div class="drawer-section utility-section">
+    <div class="section-label">SUASANA</div>
+    <div class="utility-row">
+      <button id="themeToggle" class="theme-switch" type="button" aria-label="Ganti tema"><span class="theme-sun">☀</span><span class="theme-moon">☾</span><i></i></button>
+      <div class="theme-copy"><b>Tema</b><small id="themeLabel">Terang · Hinode</small></div>
+    </div>
+    <div id="cozyMusic" class="music-panel">
+      <div class="music-head"><div><span class="control-kana">音楽</span><b>Song Bar</b><small id="trackName">Memuat playlist…</small></div><button id="musicToggle" class="music-power" type="button">●</button></div>
+      <div class="music-player"><button id="prevTrack" type="button">⏮</button><button id="playTrack" class="play-main" type="button">▶</button><button id="nextTrack" type="button">⏭</button></div>
+      <div class="music-progress"><i id="musicProgress"></i></div>
+      <div class="music-meta"><span id="musicTime">0:00</span><span>Playlist</span></div>
+    </div>
+  </div>
+  <div class="drawer-tip">🎋 <b>Tip belajar</b><br><span>Gunakan streak untuk mengumpulkan XP lebih cepat.</span></div>
+  <div class="drawer-footer">日本語を楽しもう · Ganbatte! ✨</div>
+</aside>
+
+<main class="wrap">
+  <div class="hero-ribbon"><span>GROUND HANDLING</span><i>言葉</i><span>日本語</span></div>
+  <section class="card game-shell" id="game">
+    <div class="flight-strip"><span>✈ FLIGHT TRAINING</span><span>● LIVE PRACTICE</span></div>
+    <div class="stats">
+      <div class="stat"><b id="score">0</b><small>XP Ronde</small></div>
+      <div class="stat"><b id="streak">0</b><small>🔥 Streak</small></div>
+      <div class="stat"><b id="qnum">1</b><small>Soal</small></div>
+      <div class="stat"><b id="timer">15</b><small>Detik</small></div>
+    </div>
+    <div class="question">
+      <div class="label" id="label">Apa arti kotoba ini?</div>
+      <div class="word" id="word">---</div>
+      <div class="hint" id="hint">Pilih jawaban yang benar.</div>
+      <div class="answers" id="answers"></div>
+      <button class="next" id="next" disabled>Soal berikutnya <span>→</span></button>
+      <div class="progress"><div class="bar" id="bar"></div></div>
+    </div>
+    <div class="footer"><span id="source">Sumber: PART 2–4 Ground Handling</span><span>がんばって！</span></div>
+  </section>
+
+  <section class="card result-card" id="result">
+    <div class="result-kana">おつかれさまでした</div>
+    <div class="label">RONDE SELESAI 🎉</div>
+    <div class="bigscore" id="finalScore">0</div>
+    <p id="finalText"></p>
+    <button class="restart" onclick="startGame()">🔄 Main Lagi</button>
+  </section>
+</main>
+
+<div class="choice-sheet" id="choiceSheet" aria-hidden="true"><div class="choice-backdrop"></div><div class="choice-panel"><div class="choice-grabber"></div><div class="choice-head"><div><span class="control-kana" id="choiceKana">選択</span><b id="choiceTitle">Pilih</b></div><button id="choiceClose" type="button">✕</button></div><div id="choiceOptions"></div></div></div>
+<div class="answer-flash" id="answerFlash"><div class="flash-symbol" id="flashSymbol">✓</div><div class="flash-text" id="flashText">BENAR!</div></div>
+<div class="modal-layer" id="modalLayer">
+  <div class="modal-card" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modalClose" type="button">✕</button>
+    <div id="modalContent"></div>
+  </div>
+</div>
+
+<script src="js/game.js"></script>
+<script>
+(function(){
+  const $=id=>document.getElementById(id);
+  const drawer=$('drawer'),overlay=$('menuOverlay');
+  const openMenu=()=>{drawer.classList.add('open');overlay.classList.add('show');$('menuButton').classList.add('active');$('menuButton').setAttribute('aria-expanded','true');drawer.setAttribute('aria-hidden','false');};
+  const closeMenu=()=>{drawer.classList.remove('open');overlay.classList.remove('show');$('menuButton').classList.remove('active');$('menuButton').setAttribute('aria-expanded','false');drawer.setAttribute('aria-hidden','true');};
+  $('menuButton').onclick=()=>drawer.classList.contains('open')?closeMenu():openMenu();$('closeMenu').onclick=closeMenu;overlay.onclick=closeMenu;
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeMenu();closeChoices();}});
+
+  function syncProgress(){const l=$('kLevel'),c=$('kCoins');if(l)$('drawerLevel').textContent='Lv. '+l.textContent;if(c)$('drawerCoins').textContent=c.textContent;}
+  setInterval(syncProgress,500);
+
+  // Custom selection sheets. Native selects remain hidden so the original game logic is untouched.
+  const configs={roundSize:{title:'Jumlah soal',kana:'問題数',labels:{'5':'5 soal','10':'10 soal','20':'20 soal','30':'30 soal','50':'50 soal','ALL':'Semua soal'}},part:{title:'Bagian latihan',kana:'セクション',labels:{ALL:'Semua Part','PART 2':'PART 2','PART 3':'PART 3','PART 4':'PART 4'}},mode:{title:'Mode latihan',kana:'モード',labels:{'jp-id':'Jepang → pilih arti','id-jp':'Indonesia → pilih kotoba Jepang'}}};
+  const sheet=$('choiceSheet'), opts=$('choiceOptions');
+  function openChoices(key){const sel=$(key),cfg=configs[key];$('choiceTitle').textContent=cfg.title;$('choiceKana').textContent=cfg.kana;opts.innerHTML='';[...sel.options].forEach(o=>{const b=document.createElement('button');b.type='button';b.className='choice-option'+(o.value===sel.value?' selected':'');b.innerHTML='<span>'+cfg.labels[o.value]+'</span><i>'+(o.value===sel.value?'✓':'›')+'</i>';b.onclick=()=>{sel.value=o.value;sel.dispatchEvent(new Event('change',{bubbles:true}));syncChoiceLabels();closeChoices();};opts.appendChild(b)});sheet.classList.add('show');sheet.setAttribute('aria-hidden','false');}
+  function closeChoices(){sheet.classList.remove('show');sheet.setAttribute('aria-hidden','true');}
+  $('choiceClose').onclick=closeChoices;sheet.querySelector('.choice-backdrop').onclick=closeChoices;
+  document.querySelectorAll('.control-pick').forEach(b=>b.onclick=()=>openChoices(b.dataset.select));
+  function syncChoiceLabels(){for(const key of Object.keys(configs)){const sel=$(key);const el=$(key+'Label');if(el)el.textContent=configs[key].labels[sel.value]||sel.value;}}
+  syncChoiceLabels();
+
+  // Theme: animated sun/moon switch; all cards inherit CSS variables.
+  const savedTheme=localStorage.getItem('cozyTheme');if(savedTheme==='dark')document.body.classList.add('dark-mode');
+  function syncTheme(){const dark=document.body.classList.contains('dark-mode');$('themeLabel').textContent=dark?'Gelap · Tsukiyo':'Terang · Hinode';$('themeToggle').setAttribute('aria-pressed',dark);}
+  $('themeToggle').onclick=()=>{document.body.classList.toggle('dark-mode');localStorage.setItem('cozyTheme',document.body.classList.contains('dark-mode')?'dark':'light');syncTheme();themeBurst();};syncTheme();
+  function themeBurst(){const f=document.createElement('div');f.className='theme-wave';document.body.appendChild(f);setTimeout(()=>f.remove(),900)}
+
+  // Profile/statistics modal, now theme-aware.
+  const modal=$('modalLayer'),content=$('modalContent'),KEY='kotoba-ui-stats-v1';
+  function stats(){try{return Object.assign({rounds:0,questions:0,correct:0,best:0},JSON.parse(localStorage.getItem(KEY)||'{}'))}catch(e){return {rounds:0,questions:0,correct:0,best:0}}}
+  function save(s){localStorage.setItem(KEY,JSON.stringify(s))}
+  function showModal(type){const s=stats(),lvl=$('kLevel')?.textContent||'1',coins=$('kCoins')?.textContent||'0',xp=$('kXPText')?.textContent||'0 / 500';
+    if(type==='profile') content.innerHTML='<div class="modal-kana">プロフィール</div><h2>👤 Ground Handler</h2><p class="modal-muted">Belajar kotoba untuk kerja di ground handling.</p><div class="modal-grid"><div><small>LEVEL</small><b>Lv. '+lvl+'</b></div><div><small>COIN</small><b>🪙 '+coins+'</b></div><div class="wide"><small>XP</small><b>'+xp+'</b><div class="modal-xp"><i style="width:'+xpPercent()+'%"></i></div></div></div>';
+    else content.innerHTML='<div class="modal-kana">学習記録</div><h2>📊 Statistik</h2><div class="modal-grid"><div><small>RONDE</small><b>'+s.rounds+'</b></div><div><small>SOAL</small><b>'+s.questions+'</b></div><div><small>BENAR</small><b>'+s.correct+'</b></div><div><small>AKURASI TERBAIK</small><b>'+s.best+'%</b></div></div><p class="modal-muted">Statistik ronde disimpan otomatis di perangkat ini.</p>';
+    modal.classList.add('show');
+  }
+  function xpPercent(){const bar=$('kXPBar');return bar?parseFloat(bar.style.width)||0:0}
+  $('modalClose').onclick=()=>modal.classList.remove('show');modal.onclick=e=>{if(e.target===modal)modal.classList.remove('show')};
+  document.querySelectorAll('[data-panel]').forEach(b=>b.onclick=()=>{showModal(b.dataset.panel);closeMenu()});
+
+  let lastResult=false,lastLevel=Number($('kLevel')?.textContent||1);
+  const observer=new MutationObserver(()=>{const visible=getComputedStyle($('result')).display!=='none';if(visible&&!lastResult){const text=$('finalText').textContent||'',s=stats(),m=text.match(/Benar:\s*(\d+)\/(\d+)/),a=text.match(/Akurasi:\s*(\d+)%/);if(m){s.rounds++;s.correct+=Number(m[1]);s.questions+=Number(m[2]);if(a)s.best=Math.max(s.best,Number(a[1]));save(s)}burst(20)}lastResult=visible;const lv=Number($('kLevel')?.textContent||1);if(lv>lastLevel){burst(42,true);levelCelebration();lastLevel=lv}});
+  observer.observe(document.body,{subtree:true,childList:true,characterData:true,attributes:true});
+  function burst(n,level){const wrap=$('petals');for(let i=0;i<n;i++){const p=document.createElement('span');p.className=level?'level-petal':'fall-petal';p.textContent=level?(i%2?'✨':'🌸'):'🌸';p.style.left=(20+Math.random()*60)+'vw';p.style.animationDelay=(Math.random()*.25)+'s';p.style.setProperty('--drift',(Math.random()*160-80)+'px');wrap.appendChild(p);setTimeout(()=>p.remove(),level?1800:2400)}}
+  function levelCelebration(){const n=document.createElement('div');n.className='level-celebration';n.innerHTML='<div>LEVEL UP</div><small>レベルアップ！</small>';document.body.appendChild(n);setTimeout(()=>n.remove(),1600)}
+  for(let i=0;i<12;i++){const p=document.createElement('span');p.className='fall-petal idle';p.textContent='✿';p.style.left=Math.random()*100+'vw';p.style.animationDelay=(-Math.random()*8)+'s';p.style.animationDuration=(7+Math.random()*6)+'s';p.style.setProperty('--drift',(Math.random()*120-60)+'px');$('petals').appendChild(p)}
+  document.addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;b.classList.remove('tap');void b.offsetWidth;b.classList.add('tap')});
+})();
+</script>
+</body>
+</html>
