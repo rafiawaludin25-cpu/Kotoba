@@ -1,0 +1,1402 @@
+[
+  {
+    "part": "PART 2",
+    "jp": "グランドハンドリング",
+    "id": "Ground Handling",
+    "reading": "グランドハンドリング",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "航空機",
+    "id": "Pesawat terbang",
+    "reading": "こうくうき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "飛ぶ",
+    "id": "Terbang",
+    "reading": "とぶ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "準備",
+    "id": "Persiapan",
+    "reading": "じゅんび",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "燃料",
+    "id": "Bahan bakar",
+    "reading": "ねんりょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搭載",
+    "id": "Pemuatan / pemasangan",
+    "reading": "とうさい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "機内",
+    "id": "Di dalam pesawat",
+    "reading": "きない",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "荷物",
+    "id": "Barang bawaan / bagasi",
+    "reading": "にもつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "積み込み",
+    "id": "Memuat / memasukkan barang",
+    "reading": "つみこみ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "旅客機",
+    "id": "Pesawat penumpang",
+    "reading": "りょかくき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "定期便",
+    "id": "Penerbangan reguler",
+    "reading": "ていきびん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "到着",
+    "id": "Kedatangan",
+    "reading": "とうちゃく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "出発",
+    "id": "Keberangkatan",
+    "reading": "しゅっぱつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "時間",
+    "id": "Waktu",
+    "reading": "じかん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "取り卸し",
+    "id": "Membongkar / menurunkan barang",
+    "reading": "とりおろし",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "乗客",
+    "id": "Penumpang",
+    "reading": "じょうきゃく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "掃除",
+    "id": "Membersihkan",
+    "reading": "そうじ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "安全",
+    "id": "Keamanan / keselamatan",
+    "reading": "あんぜん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "快適",
+    "id": "Nyaman",
+    "reading": "かいてき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "目的地",
+    "id": "Tujuan",
+    "reading": "もくてきち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "速度",
+    "id": "Kecepatan",
+    "reading": "そくど",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "オペレータ",
+    "id": "Operator",
+    "reading": "オペレータ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "装着",
+    "id": "Pemasangan",
+    "reading": "そうちゃく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "合図",
+    "id": "Sinyal",
+    "reading": "あいず",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "形状",
+    "id": "Bentuk",
+    "reading": "けいじょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "回転",
+    "id": "Rotasi",
+    "reading": "かいてん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "周囲",
+    "id": "Sekitar",
+    "reading": "しゅうい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "連携",
+    "id": "Koordinasi",
+    "reading": "れんけい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "実施",
+    "id": "Pelaksanaan",
+    "reading": "じっし",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "重量",
+    "id": "Berat",
+    "reading": "じゅうりょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "声",
+    "id": "Suara",
+    "reading": "こえ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "業者",
+    "id": "Pihak pelaksana",
+    "reading": "ぎょうしゃ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "落下",
+    "id": "Jatuh",
+    "reading": "らっか",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "防止",
+    "id": "Pencegahan",
+    "reading": "ぼうし",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ロック",
+    "id": "Kunci",
+    "reading": "ロック",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "エンジン",
+    "id": "Mesin",
+    "reading": "えんじん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "後方",
+    "id": "Belakang",
+    "reading": "こうほう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "貨物室",
+    "id": "Ruang kargo",
+    "reading": "かもつしつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "牽引",
+    "id": "Penarikan",
+    "reading": "けんいん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "翼",
+    "id": "Sayap",
+    "reading": "つばさ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "指差呼称",
+    "id": "Penunjukan dan penyebutan",
+    "reading": "しさこしょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搬入",
+    "id": "Pengiriman",
+    "reading": "はんにゅう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "順序",
+    "id": "Urutan",
+    "reading": "じゅんじょ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "照合",
+    "id": "Verifikasi",
+    "reading": "しょうごう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "積込",
+    "id": "Pemuatan",
+    "reading": "つみこみ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "種類",
+    "id": "Jenis",
+    "reading": "しゅるい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "手荷物",
+    "id": "Bagasi tangan",
+    "reading": "てにもつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "点検",
+    "id": "Inspeksi",
+    "reading": "てんけん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "損傷",
+    "id": "Kerusakan",
+    "reading": "そんしょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "行き先",
+    "id": "Tujuan",
+    "reading": "いきさき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "誤送",
+    "id": "Pengiriman salah",
+    "reading": "ごそう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "報告",
+    "id": "Pelaporan",
+    "reading": "ほうこく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "変形",
+    "id": "Deformasi",
+    "reading": "へんけい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "汚損",
+    "id": "Kontaminasi",
+    "reading": "おそん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "指定",
+    "id": "Penunjukan",
+    "reading": "してい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "脱落",
+    "id": "Terjatuh",
+    "reading": "だつらく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "転倒",
+    "id": "Terbalik",
+    "reading": "てんとう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "適切",
+    "id": "Tepat",
+    "reading": "てきせつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "処置",
+    "id": "Penanganan",
+    "reading": "しょち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "天候",
+    "id": "Cuaca",
+    "reading": "てんこう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "防水",
+    "id": "Tahan air",
+    "reading": "ぼうすい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "雨水",
+    "id": "Air hujan",
+    "reading": "あまみず",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "浸入",
+    "id": "Masuk",
+    "reading": "しんにゅう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "飲料水",
+    "id": "Air minum",
+    "reading": "いんりょうすい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "手洗い水",
+    "id": "Air cuci tangan",
+    "reading": "てあらいすい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "飛行前",
+    "id": "Sebelum penerbangan",
+    "reading": "ひこうまえ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "胴体",
+    "id": "Badan pesawat",
+    "reading": "どうたい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "装備",
+    "id": "Perlengkapan",
+    "reading": "そうび",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "補給",
+    "id": "Pengisian",
+    "reading": "ほきゅう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搭載量",
+    "id": "Jumlah muatan",
+    "reading": "とうさいりょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "給水バルブ",
+    "id": "Katup pengisian air",
+    "reading": "きゅうすいばるぶ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "閉める",
+    "id": "Menutup",
+    "reading": "しめる",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "漏れ",
+    "id": "Kebocoran",
+    "reading": "もれ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "気温",
+    "id": "Suhu",
+    "reading": "きおん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "凍り付く",
+    "id": "Membeku",
+    "reading": "こおりつく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "氷",
+    "id": "Es",
+    "reading": "こおり",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "部品",
+    "id": "Bagian",
+    "reading": "ぶひん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "確認事項",
+    "id": "Hal-hal yang harus dikonfirmasi",
+    "reading": "かくにんじこう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "最後",
+    "id": "Terakhir",
+    "reading": "さいご",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 2",
+    "jp": "工程",
+    "id": "Tahapan proses",
+    "reading": "こうてい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "工程管理",
+    "id": "Manajemen proses",
+    "reading": "こうていかんり",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "作業計画",
+    "id": "Rencana kerja",
+    "reading": "さぎょうけいかく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搭載計画",
+    "id": "Rencana pemuatan",
+    "reading": "とうさいけいかく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "運航情報",
+    "id": "Informasi operasi penerbangan",
+    "reading": "うんこうじょうほう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "便名",
+    "id": "Nomor penerbangan",
+    "reading": "びんめい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "便情報",
+    "id": "Informasi penerbangan",
+    "reading": "びんじょうほう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "フライト",
+    "id": "Penerbangan",
+    "reading": "ふらいと",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "フライトスケジュール",
+    "id": "Jadwal penerbangan",
+    "reading": "ふらいとすけじゅーる",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "出発時刻",
+    "id": "Waktu keberangkatan",
+    "reading": "しゅっぱつじこく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "到着時刻",
+    "id": "Waktu kedatangan",
+    "reading": "とうちゃくじこく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "予定時刻",
+    "id": "Waktu yang dijadwalkan",
+    "reading": "よていじこく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "変更情報",
+    "id": "Informasi perubahan",
+    "reading": "へんこうじょうほう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "運航状況",
+    "id": "Status operasi penerbangan",
+    "reading": "うんこうじょうきょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "欠航",
+    "id": "Pembatalan penerbangan",
+    "reading": "けっこう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "遅延",
+    "id": "Keterlambatan",
+    "reading": "ちえん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "定刻",
+    "id": "Waktu yang ditetapkan",
+    "reading": "ていこく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "定刻出発",
+    "id": "Berangkat tepat waktu",
+    "reading": "ていこくしゅっぱつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "折返し便",
+    "id": "Penerbangan turnaround",
+    "reading": "おりかえしびん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "情報端末",
+    "id": "Terminal informasi",
+    "reading": "じょうほうたんまつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "無線",
+    "id": "Radio komunikasi",
+    "reading": "むせん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "無線機",
+    "id": "Perangkat radio",
+    "reading": "むせんき",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "連絡手段",
+    "id": "Sarana komunikasi",
+    "reading": "れんらくしゅだん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "担当",
+    "id": "Penanggung jawab",
+    "reading": "たんとう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "作業指示",
+    "id": "Instruksi kerja",
+    "reading": "さぎょうしじ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "到着便",
+    "id": "Penerbangan kedatangan",
+    "reading": "とうちゃくびん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "作業開始時刻",
+    "id": "Waktu mulai kerja",
+    "reading": "さぎょうかいしじこく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "作業終了時刻",
+    "id": "Waktu selesai kerja",
+    "reading": "さぎょうしゅうりょうじこく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搬送",
+    "id": "Pengangkutan",
+    "reading": "はんそう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搬送作業",
+    "id": "Pekerjaan pengangkutan",
+    "reading": "はんそうさぎょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "輸送車両",
+    "id": "Kendaraan pengangkut",
+    "reading": "ゆそうしゃりょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "地上支援機材",
+    "id": "Peralatan dukungan darat",
+    "reading": "ちじょうしえんきざい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "地上支援装置",
+    "id": "Peralatan dukungan darat",
+    "reading": "ちじょうしえんそうち",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "GSE車両",
+    "id": "Kendaraan GSE",
+    "reading": "じーえすいーしゃりょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "トーイング・トラクター",
+    "id": "Traktor towing",
+    "reading": "とーいんぐとらくたー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "TT車",
+    "id": "Kendaraan TT",
+    "reading": "てぃーてぃーしゃ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "牽引車",
+    "id": "Kendaraan penarik",
+    "reading": "けんいんしゃ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "トーバー",
+    "id": "Tow bar",
+    "reading": "とーばー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "トーバーレス",
+    "id": "Towbarless",
+    "reading": "とーばーれす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ドーリー",
+    "id": "Dolly",
+    "reading": "どーりー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "カート",
+    "id": "Cart",
+    "reading": "かーと",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "カーゴカート",
+    "id": "Cart kargo",
+    "reading": "かーごかーと",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "バゲージカート",
+    "id": "Cart bagasi",
+    "reading": "ばげーじかーと",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "コンテナドーリー",
+    "id": "Dolly kontainer",
+    "reading": "こんてなどーりー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ハイリフト・ローダー",
+    "id": "High lift loader",
+    "reading": "はいりふとろーだー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ベルト・ローダー",
+    "id": "Belt loader",
+    "reading": "べるとろーだー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "コンベア",
+    "id": "Conveyor",
+    "reading": "こんべあ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "コンベアベルト",
+    "id": "Sabuk conveyor",
+    "reading": "こんべあべると",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "パレット",
+    "id": "Pallet",
+    "reading": "ぱれっと",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "コンテナ",
+    "id": "Kontainer",
+    "reading": "こんてな",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "航空コンテナ",
+    "id": "Kontainer udara",
+    "reading": "こうくうこんてな",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ULD",
+    "id": "Unit Load Device",
+    "reading": "ゆーえるでぃー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ULD番号",
+    "id": "Nomor ULD",
+    "reading": "ゆーえるでぃーばんごう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ULDタグ",
+    "id": "Label ULD",
+    "reading": "ゆーえるでぃーたぐ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ULDロック",
+    "id": "Kunci ULD",
+    "reading": "ゆーえるでぃーろっく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "コンテナロック",
+    "id": "Kunci kontainer",
+    "reading": "こんてなろっく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ネット",
+    "id": "Jaring",
+    "reading": "ねっと",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "カーゴネット",
+    "id": "Jaring kargo",
+    "reading": "かーごねっと",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ラッシング",
+    "id": "Pengikatan muatan",
+    "reading": "らっしんぐ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "固定",
+    "id": "Pengikatan/fiksasi",
+    "reading": "こてい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "固定具",
+    "id": "Alat pengikat",
+    "reading": "こていぐ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "固定装置",
+    "id": "Perangkat pengikat",
+    "reading": "こていそうち",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "拘束",
+    "id": "Penahanan/fiksasi",
+    "reading": "こうそく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "滑り止め",
+    "id": "Anti-selip",
+    "reading": "すべりどめ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "積付け",
+    "id": "Penataan muatan",
+    "reading": "つみつけ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "積付け計画",
+    "id": "Rencana penataan muatan",
+    "reading": "つみつけけいかく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "重量配分",
+    "id": "Distribusi berat",
+    "reading": "じゅうりょうはいぶん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "重量制限",
+    "id": "Batas berat",
+    "reading": "じゅうりょうせいげん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "最大重量",
+    "id": "Berat maksimum",
+    "reading": "さいだいじゅうりょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "総重量",
+    "id": "Berat total",
+    "reading": "そうじゅうりょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "重心",
+    "id": "Pusat gravitasi",
+    "reading": "じゅうしん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "重心位置",
+    "id": "Posisi pusat gravitasi",
+    "reading": "じゅうしんいち",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "バランス",
+    "id": "Keseimbangan",
+    "reading": "ばらんす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搭載位置",
+    "id": "Posisi muatan",
+    "reading": "とうさいいち",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搭載順序",
+    "id": "Urutan pemuatan",
+    "reading": "とうさいじゅんじょ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "降載",
+    "id": "Pembongkaran muatan",
+    "reading": "こうさい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "バルク",
+    "id": "Bulk",
+    "reading": "ばるく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "バルク室",
+    "id": "Ruang bulk",
+    "reading": "ばるくしつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "バルク貨物",
+    "id": "Kargo bulk",
+    "reading": "ばるくかもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "貨物室ドア",
+    "id": "Pintu ruang kargo",
+    "reading": "かもつしつどあ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "貨物室内",
+    "id": "Di dalam ruang kargo",
+    "reading": "かもつしつない",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "貨物ドア",
+    "id": "Pintu kargo",
+    "reading": "かもつどあ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ドア開閉",
+    "id": "Buka-tutup pintu",
+    "reading": "どあかいへい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "開閉",
+    "id": "Membuka dan menutup",
+    "reading": "かいへい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搭載物",
+    "id": "Barang yang dimuat",
+    "reading": "とうさいぶつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "搭載物確認",
+    "id": "Pemeriksaan barang yang dimuat",
+    "reading": "とうさいぶつかくにん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "荷姿",
+    "id": "Bentuk kemasan muatan",
+    "reading": "にすがた",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "梱包",
+    "id": "Pengemasan",
+    "reading": "こんぽう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "包装",
+    "id": "Pembungkusan",
+    "reading": "ほうそう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "梱包状態",
+    "id": "Kondisi kemasan",
+    "reading": "こんぽうじょうたい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "荷札",
+    "id": "Label barang",
+    "reading": "にふだ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "貨物ラベル",
+    "id": "Label kargo",
+    "reading": "かもつらべる",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "取扱表示",
+    "id": "Tanda penanganan",
+    "reading": "とりあつかいひょうじ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "天地無用",
+    "id": "Jangan dibalik",
+    "reading": "てんちむよう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "壊れ物",
+    "id": "Barang mudah pecah",
+    "reading": "こわれもの",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "重量物表示",
+    "id": "Tanda barang berat",
+    "reading": "じゅうりょうぶつひょうじ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "危険物表示",
+    "id": "Tanda barang berbahaya",
+    "reading": "きけんぶつひょうじ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "温度管理",
+    "id": "Kontrol suhu",
+    "reading": "おんどかんり",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "保冷",
+    "id": "Menjaga tetap dingin",
+    "reading": "ほれい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "冷蔵",
+    "id": "Pendinginan",
+    "reading": "れいぞう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "冷凍",
+    "id": "Pembekuan",
+    "reading": "れいとう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "生鮮品",
+    "id": "Barang segar",
+    "reading": "せいせんひん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "特殊貨物",
+    "id": "Kargo khusus",
+    "reading": "とくしゅかもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "特殊手荷物",
+    "id": "Bagasi khusus",
+    "reading": "とくしゅてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "車椅子",
+    "id": "Kursi roda",
+    "reading": "くるまいす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ベビーカー",
+    "id": "Kereta bayi",
+    "reading": "べびーかー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "楽器",
+    "id": "Alat musik",
+    "reading": "がっき",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "スポーツ用品",
+    "id": "Peralatan olahraga",
+    "reading": "すぽーつようひん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "ペット輸送",
+    "id": "Pengangkutan hewan peliharaan",
+    "reading": "ぺっとゆそう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "動物",
+    "id": "Hewan",
+    "reading": "どうぶつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "生き物",
+    "id": "Makhluk hidup",
+    "reading": "いきもの",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "遺体",
+    "id": "Jenazah",
+    "reading": "いたい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "貴重品",
+    "id": "Barang berharga",
+    "reading": "きちょうひん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "現金",
+    "id": "Uang tunai",
+    "reading": "げんきん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "壊れやすい",
+    "id": "Mudah rusak",
+    "reading": "こわれやすい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "取扱",
+    "id": "Penanganan",
+    "reading": "とりあつかい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "取扱方法",
+    "id": "Metode penanganan",
+    "reading": "とりあつかいほうほう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "取り扱う",
+    "id": "Menangani",
+    "reading": "とりあつかう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "積む",
+    "id": "Memuat",
+    "reading": "つむ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "降ろす",
+    "id": "Menurunkan",
+    "reading": "おろす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 2",
+    "jp": "運ぶ",
+    "id": "Mengangkut",
+    "reading": "はこぶ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  }
+]

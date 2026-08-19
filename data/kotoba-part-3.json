@@ -1,0 +1,1752 @@
+[
+  {
+    "part": "PART 3",
+    "jp": "ラバトリー",
+    "id": "Kamar kecil",
+    "reading": "らばとりー",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "数",
+    "id": "Jumlah",
+    "reading": "すう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "大きさ",
+    "id": "Ukuran",
+    "reading": "おおきさ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "国",
+    "id": "Negara",
+    "reading": "こく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "内線用",
+    "id": "Untuk penerbangan domestik",
+    "reading": "ないせんよう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "国際線用",
+    "id": "Untuk penerbangan internasional",
+    "reading": "こくさいせんよう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "違い",
+    "id": "Perbedaan",
+    "reading": "ちがい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "距離",
+    "id": "Jarak",
+    "reading": "きょり",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "最大",
+    "id": "Maksimum",
+    "reading": "さいだい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "旅客",
+    "id": "Penumpang",
+    "reading": "りょかく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "汚水",
+    "id": "Air kotor",
+    "reading": "おすい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "機外",
+    "id": "Di luar pesawat",
+    "reading": "きがい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "排出",
+    "id": "Pembuangan",
+    "reading": "はいしゅつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "通常",
+    "id": "Biasanya",
+    "reading": "つうじょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "トイレット",
+    "id": "Toilet",
+    "reading": "といれっと",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "所定量",
+    "id": "Jumlah yang ditentukan",
+    "reading": "しょていりょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "水",
+    "id": "Air",
+    "reading": "みず",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "殺菌",
+    "id": "Sterilisasi",
+    "reading": "さっきん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "消臭剤",
+    "id": "Penghilang bau",
+    "reading": "しょうしゅうざい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "GSE",
+    "id": "Peralatan dukungan darat",
+    "reading": "GSE",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "清水用タンク",
+    "id": "Tangki untuk air bersih",
+    "reading": "しみずようたんく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "給排出ホース",
+    "id": "Selang pengisian dan pembuangan",
+    "reading": "きゅうはいしゅつほーす",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "給水装置",
+    "id": "Alat penyedia air",
+    "reading": "きゅうすいそうち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "圧力",
+    "id": "Tekanan",
+    "reading": "あつりょく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空調",
+    "id": "Sistem pendingin / pemanas udara",
+    "reading": "くうちょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "低圧",
+    "id": "Tekanan rendah",
+    "reading": "ていあつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空気",
+    "id": "Udara",
+    "reading": "くうき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "エプロン",
+    "id": "Area apron di bandara",
+    "reading": "エプロン",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "舗装",
+    "id": "Aspal",
+    "reading": "ほそう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "地上",
+    "id": "Di darat",
+    "reading": "ちじょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "供給",
+    "id": "Penyediaan",
+    "reading": "きょうきゅう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "設備",
+    "id": "Peralatan",
+    "reading": "せつび",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "設置",
+    "id": "Pemasangan",
+    "reading": "せっち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "駐機",
+    "id": "Parkir pesawat",
+    "reading": "ちゅうき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "スポット",
+    "id": "Spot / area",
+    "reading": "スポット",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "埋め込む",
+    "id": "Menanam / menyisipkan",
+    "reading": "うめこむ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "エアコン",
+    "id": "AC",
+    "reading": "エアコン",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ピット",
+    "id": "Pit / area khusus",
+    "reading": "ピット",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空気取出し口",
+    "id": "Lubang pengambilan udara",
+    "reading": "くうきとりだしぐち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "利用",
+    "id": "Penggunaan",
+    "reading": "りよう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "太い",
+    "id": "Tebal",
+    "reading": "ふとい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ホース",
+    "id": "Selang",
+    "reading": "ホース",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "出す",
+    "id": "Mengeluarkan",
+    "reading": "だす",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ねじれ",
+    "id": "Kerut",
+    "reading": "ねじれ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "直す",
+    "id": "Memperbaiki",
+    "reading": "なおす",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "機体側",
+    "id": "Sisi pesawat",
+    "reading": "きたいがわ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "カップリング",
+    "id": "Coupling",
+    "reading": "カップリング",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "アクセス",
+    "id": "Akses",
+    "reading": "アクセス",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "パネル",
+    "id": "Panel",
+    "reading": "パネル",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "付近",
+    "id": "Sekitar",
+    "reading": "ふきん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "移動",
+    "id": "Pindah",
+    "reading": "いどう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "注意",
+    "id": "Perhatian",
+    "reading": "ちゅうい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "接続",
+    "id": "Koneksi",
+    "reading": "せつぞく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "機体",
+    "id": "Pesawat",
+    "reading": "きたい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "破損",
+    "id": "Kerusakan",
+    "reading": "はそん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "恐れ",
+    "id": "Kekhawatiran",
+    "reading": "おそれ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "必要",
+    "id": "Kebutuhan",
+    "reading": "ひつよう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "次",
+    "id": "Selanjutnya",
+    "reading": "つぎ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "開く",
+    "id": "Membuka",
+    "reading": "ひらく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "所定",
+    "id": "Ditentukan",
+    "reading": "しょてい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "スイッチ",
+    "id": "Saklar",
+    "reading": "スイッチ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "入れる",
+    "id": "Memasukkan",
+    "reading": "いれる",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "送る",
+    "id": "Mengirim",
+    "reading": "おくる",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "場所",
+    "id": "Tempat",
+    "reading": "ばしょ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "個数",
+    "id": "Jumlah",
+    "reading": "こすう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "普通",
+    "id": "Biasa",
+    "reading": "ふつう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "結合",
+    "id": "Penggabungan",
+    "reading": "けつごう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "金具",
+    "id": "Klem",
+    "reading": "かなぐ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "サイズ",
+    "id": "Ukuran",
+    "reading": "さいず",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "出口",
+    "id": "Keluar",
+    "reading": "でぐち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "作る",
+    "id": "Membuat",
+    "reading": "つくる",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "重要",
+    "id": "Penting",
+    "reading": "じゅうよう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空港",
+    "id": "Bandara",
+    "reading": "くうこう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ビル",
+    "id": "Gedung",
+    "reading": "ビル",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "エネルギー",
+    "id": "Energi",
+    "reading": "エネルギー",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "施設",
+    "id": "Fasilitas",
+    "reading": "しせつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "地域",
+    "id": "Daerah",
+    "reading": "ちいき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "冷暖房",
+    "id": "Pemanasan dan pendinginan",
+    "reading": "れいだんぼう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "プラント",
+    "id": "Pabrik",
+    "reading": "プラント",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "冷水",
+    "id": "Air dingin",
+    "reading": "れいすい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "夏",
+    "id": "Musim panas",
+    "reading": "なつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "蒸気",
+    "id": "Uap",
+    "reading": "じょうき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "冬",
+    "id": "Musim dingin",
+    "reading": "ふゆ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "熱交換器",
+    "id": "Penukar panas",
+    "reading": "ねつこうかんき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "送風機",
+    "id": "Kipas angin",
+    "reading": "そうふうき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "仕分け作業",
+    "id": "Pekerjaan penyortiran",
+    "reading": "しわけさぎょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "搭乗",
+    "id": "Naik pesawat",
+    "reading": "とうじょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手続き",
+    "id": "Prosedur",
+    "reading": "てつづき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "預かる",
+    "id": "Menyimpan",
+    "reading": "あずかる",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "クレーム・タグ",
+    "id": "Label klaim",
+    "reading": "クレーム・タグ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ベルトコンベア",
+    "id": "Conveyor belt",
+    "reading": "ベルトコンベア",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "行き先",
+    "id": "Tujuan",
+    "reading": "いきさき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "仕分け場",
+    "id": "Area penyortiran",
+    "reading": "しわけば",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "経由地",
+    "id": "Titik transit",
+    "reading": "けいゆち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "タグ",
+    "id": "Label",
+    "reading": "たぐ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "バルク・カート",
+    "id": "Kereta barang",
+    "reading": "バルク・カート",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "積み付け",
+    "id": "Pemindahan muatan",
+    "reading": "つみつけ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "機側",
+    "id": "Sisi pesawat",
+    "reading": "きそく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "向かう",
+    "id": "Menuju",
+    "reading": "むかう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "特殊手荷物タグ",
+    "id": "Label bagasi khusus",
+    "reading": "とくしゅてにもつたぐ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ファーストクラス",
+    "id": "Kelas satu",
+    "reading": "ファーストクラス",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ビジネスクラス",
+    "id": "Kelas bisnis",
+    "reading": "ビジネスクラス",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "取扱注意",
+    "id": "Perhatian dalam penanganan",
+    "reading": "とりあつかいちゅうい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "内容物",
+    "id": "Isi barang",
+    "reading": "ないようぶつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ペット",
+    "id": "Hewan peliharaan",
+    "reading": "ペット",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ケージ",
+    "id": "Kandang",
+    "reading": "ケージ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "日陰",
+    "id": "Tempat teduh",
+    "reading": "ひかげ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "風通し",
+    "id": "Ventilasi",
+    "reading": "かぜとおし",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "保管",
+    "id": "Penyimpanan",
+    "reading": "ほかん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "重量物",
+    "id": "Barang berat",
+    "reading": "じゅうりょうぶつ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "腰",
+    "id": "Pinggang",
+    "reading": "こし",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ケガ",
+    "id": "Cedera",
+    "reading": "ケガ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "連絡",
+    "id": "Kontak",
+    "reading": "れんらく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "情報",
+    "id": "Informasi",
+    "reading": "じょうほう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "位置",
+    "id": "Posisi",
+    "reading": "いち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "作業員",
+    "id": "Pekerja",
+    "reading": "さぎょういん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "時刻",
+    "id": "Waktu",
+    "reading": "じこく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "定時性",
+    "id": "Ketepatan waktu",
+    "reading": "ていじせい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "確保",
+    "id": "Jaminan",
+    "reading": "かくほ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "早くて的確",
+    "id": "Cepat dan akurat",
+    "reading": "はやくててきかく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "判断",
+    "id": "Penilaian",
+    "reading": "はんだん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "優先順位",
+    "id": "Prioritas",
+    "reading": "ゆうせんじゅんい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "専用",
+    "id": "Khusus",
+    "reading": "せんよう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "完了後",
+    "id": "Setelah selesai",
+    "reading": "かんりょうご",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "荷台",
+    "id": "Bak barang",
+    "reading": "にだい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "業者",
+    "id": "Kontraktor",
+    "reading": "ぎょうしゃ",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "発進",
+    "id": "Peluncuran",
+    "reading": "はっしん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ドライバー",
+    "id": "Pengemudi",
+    "reading": "ドライバー",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "高速",
+    "id": "Kecepatan tinggi",
+    "reading": "こうそく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "輸送",
+    "id": "Pengiriman",
+    "reading": "ゆそう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "年々",
+    "id": "Tahun demi tahun",
+    "reading": "ねんねん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "拡大",
+    "id": "Perluasan",
+    "reading": "かくだい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "一般",
+    "id": "Umum",
+    "reading": "いっぱん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "生鮮",
+    "id": "Segar",
+    "reading": "せいせん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "食料品",
+    "id": "Produk makanan",
+    "reading": "しょくりょうひん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "宅配",
+    "id": "Pengiriman ke rumah",
+    "reading": "たくはい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "引越し",
+    "id": "Pindahan",
+    "reading": "ひっこし",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "大型",
+    "id": "Besar",
+    "reading": "おおがた",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "機械",
+    "id": "Mesin",
+    "reading": "きかい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "広範囲",
+    "id": "Luas",
+    "reading": "こうはんい",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "大型化",
+    "id": "Pembesaran ukuran",
+    "reading": "おおがたか",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "輸送量",
+    "id": "Volume pengiriman",
+    "reading": "ゆそうりょう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "貨物専用機",
+    "id": "Pesawat khusus kargo",
+    "reading": "かもつせんようき",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "可能",
+    "id": "Mungkin",
+    "reading": "かのう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "受託",
+    "id": "Penugasan",
+    "reading": "じゅたく",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "小口",
+    "id": "Pengiriman kecil",
+    "reading": "こぐち",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "代理店",
+    "id": "Agen",
+    "reading": "だいりてん",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "発行",
+    "id": "Penerbitan",
+    "reading": "はっこう",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ケア",
+    "id": "Perawatan",
+    "reading": "ケア",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "マーク",
+    "id": "Tanda",
+    "reading": "マーク",
+    "source": "MASTER V1.4"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ウォーター・サービス",
+    "id": "Layanan air",
+    "reading": "うぉーたーさーびす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "給水",
+    "id": "Pengisian air",
+    "reading": "きゅうすい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "給水車",
+    "id": "Truk pengisian air",
+    "reading": "きゅうすいしゃ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ウォーター・カー",
+    "id": "Water car",
+    "reading": "うぉーたーかー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "排水",
+    "id": "Pembuangan air",
+    "reading": "はいすい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "排水車",
+    "id": "Truk pembuangan air",
+    "reading": "はいすいしゃ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ドレイン・ウォーター・カー",
+    "id": "Drain water car",
+    "reading": "どれいんうぉーたーかー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "汚水車",
+    "id": "Truk air kotor",
+    "reading": "おすいしゃ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "ラバトリー・カー",
+    "id": "Lavatory car",
+    "reading": "らばとりーかー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "清水",
+    "id": "Air bersih",
+    "reading": "せいすい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "清水タンク",
+    "id": "Tangki air bersih",
+    "reading": "せいすいたんく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "給水口",
+    "id": "Lubang pengisian air",
+    "reading": "きゅうすいこう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "給水ホース",
+    "id": "Selang pengisian air",
+    "reading": "きゅうすいほーす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "排水ホース",
+    "id": "Selang pembuangan air",
+    "reading": "はいすいほーす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "排水口",
+    "id": "Lubang pembuangan",
+    "reading": "はいすいこう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "給水量",
+    "id": "Jumlah air pengisian",
+    "reading": "きゅうすいりょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "給水作業",
+    "id": "Pekerjaan pengisian air",
+    "reading": "きゅうすいさぎょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "排水作業",
+    "id": "Pekerjaan pembuangan air",
+    "reading": "はいすいさぎょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "排水バルブ",
+    "id": "Katup pembuangan air",
+    "reading": "はいすいばるぶ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "バルブ",
+    "id": "Katup",
+    "reading": "ばるぶ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "バルブ操作",
+    "id": "Pengoperasian katup",
+    "reading": "ばるぶそうさ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "漏水",
+    "id": "Kebocoran air",
+    "reading": "ろうすい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "漏水確認",
+    "id": "Pemeriksaan kebocoran air",
+    "reading": "ろうすいかくにん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "水質",
+    "id": "Kualitas air",
+    "reading": "すいしつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手洗い",
+    "id": "Cuci tangan",
+    "reading": "てあらい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "消毒",
+    "id": "Disinfeksi",
+    "reading": "しょうどく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "消毒剤",
+    "id": "Disinfektan",
+    "reading": "しょうどくざい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "殺菌剤",
+    "id": "Bahan sterilisasi",
+    "reading": "さっきんざい",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "消臭",
+    "id": "Penghilangan bau",
+    "reading": "しょうしゅう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "消臭処理",
+    "id": "Penanganan penghilang bau",
+    "reading": "しょうしゅうしょり",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "汚物",
+    "id": "Kotoran/limbah",
+    "reading": "おぶつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "汚物タンク",
+    "id": "Tangki limbah",
+    "reading": "おぶつたんく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "汚物処理",
+    "id": "Penanganan limbah",
+    "reading": "おぶつしょり",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "汚水タンク",
+    "id": "Tangki air kotor",
+    "reading": "おすいたんく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "排出量",
+    "id": "Jumlah pembuangan",
+    "reading": "はいしゅつりょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "機内空調",
+    "id": "Pengatur udara kabin",
+    "reading": "きないくうちょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空調サービス",
+    "id": "Layanan pendingin/pemanas udara",
+    "reading": "くうちょうさーびす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "低圧空気",
+    "id": "Udara bertekanan rendah",
+    "reading": "ていあつくうき",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空調車",
+    "id": "Kendaraan layanan udara",
+    "reading": "くうちょうしゃ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空調機",
+    "id": "Unit pendingin udara",
+    "reading": "くうちょうき",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "地上空調",
+    "id": "Ground air conditioning",
+    "reading": "ちじょうくうちょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空気供給",
+    "id": "Pasokan udara",
+    "reading": "くうききょうきゅう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "空気供給設備",
+    "id": "Peralatan pasokan udara",
+    "reading": "くうききょうきゅうせつび",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "地上電源",
+    "id": "Daya listrik darat",
+    "reading": "ちじょうでんげん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "地上電源供給",
+    "id": "Pasokan daya darat",
+    "reading": "ちじょうでんげんきょうきゅう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "GPU",
+    "id": "Ground Power Unit",
+    "reading": "じーぴーゆー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "固定式GPU",
+    "id": "GPU tetap",
+    "reading": "こていしきじーぴーゆー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "移動式GPU",
+    "id": "GPU bergerak",
+    "reading": "いどうしきじーぴーゆー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "地上電源車",
+    "id": "Kendaraan ground power",
+    "reading": "ちじょうでんげんしゃ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電源ケーブル",
+    "id": "Kabel listrik",
+    "reading": "でんげんけーぶる",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電源接続",
+    "id": "Koneksi listrik",
+    "reading": "でんげんせつぞく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電源供給口",
+    "id": "Port pasokan listrik",
+    "reading": "でんげんきょうきゅうこう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電源プラグ",
+    "id": "Steker listrik",
+    "reading": "でんげんぷらぐ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電圧",
+    "id": "Tegangan",
+    "reading": "でんあつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電流",
+    "id": "Arus listrik",
+    "reading": "でんりゅう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "周波数",
+    "id": "Frekuensi",
+    "reading": "しゅうはすう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電気設備",
+    "id": "Peralatan listrik",
+    "reading": "でんきせつび",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "接地",
+    "id": "Pembumian/grounding",
+    "reading": "せっち",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "アース",
+    "id": "Ground/earth",
+    "reading": "あーす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "絶縁",
+    "id": "Isolasi",
+    "reading": "ぜつえん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "漏電",
+    "id": "Kebocoran listrik",
+    "reading": "ろうでん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "短絡",
+    "id": "Hubung singkat",
+    "reading": "たんらく",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "過電流",
+    "id": "Arus berlebih",
+    "reading": "かでんりゅう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電源スイッチ",
+    "id": "Sakelar listrik",
+    "reading": "でんげんすいっち",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "主電源",
+    "id": "Catu daya utama",
+    "reading": "しゅでんげん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電源オフ",
+    "id": "Daya mati",
+    "reading": "でんげんおふ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "電源オン",
+    "id": "Daya menyala",
+    "reading": "でんげんおん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "機内サービス",
+    "id": "Layanan kabin",
+    "reading": "きないさーびす",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "客室",
+    "id": "Kabin penumpang",
+    "reading": "きゃくしつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "客室乗務員",
+    "id": "Awak kabin",
+    "reading": "きゃくしつじょうむいん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "客室用品",
+    "id": "Perlengkapan kabin",
+    "reading": "きゃくしつようひん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "搭乗口",
+    "id": "Gerbang naik pesawat",
+    "reading": "とうじょうぐち",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "降機",
+    "id": "Turun dari pesawat",
+    "reading": "こうき",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "降機作業",
+    "id": "Pekerjaan penurunan penumpang",
+    "reading": "こうきさぎょう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手荷物仕分け",
+    "id": "Penyortiran bagasi",
+    "reading": "てにもつしわけ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "仕分け",
+    "id": "Penyortiran",
+    "reading": "しわけ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手荷物タグ",
+    "id": "Label bagasi",
+    "reading": "てにもつたぐ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "バゲージタグ",
+    "id": "Label bagasi",
+    "reading": "ばげーじたぐ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手荷物番号",
+    "id": "Nomor bagasi",
+    "reading": "てにもつばんごう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "タグ番号",
+    "id": "Nomor label",
+    "reading": "たぐばんごう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "受託手荷物",
+    "id": "Bagasi terdaftar",
+    "reading": "じゅたくてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "機内持込手荷物",
+    "id": "Bagasi kabin",
+    "reading": "きないもちこみてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手荷物カウンター",
+    "id": "Konter bagasi",
+    "reading": "てにもつかうんたー",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手荷物受取所",
+    "id": "Area pengambilan bagasi",
+    "reading": "てにもつうけとりじょ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手荷物搬送",
+    "id": "Pengangkutan bagasi",
+    "reading": "てにもつはんそう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手荷物積込",
+    "id": "Pemuatan bagasi",
+    "reading": "てにもつつみこみ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "手荷物取卸し",
+    "id": "Pembongkaran bagasi",
+    "reading": "てにもつとりおろし",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "未着手荷物",
+    "id": "Bagasi belum tiba",
+    "reading": "みちゃくてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "破損手荷物",
+    "id": "Bagasi rusak",
+    "reading": "はそんてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "遺失手荷物",
+    "id": "Bagasi hilang",
+    "reading": "いしつてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "誤着手荷物",
+    "id": "Bagasi salah tiba",
+    "reading": "ごちゃくてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "到着手荷物",
+    "id": "Bagasi kedatangan",
+    "reading": "とうちゃくてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "出発手荷物",
+    "id": "Bagasi keberangkatan",
+    "reading": "しゅっぱつてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "乗継手荷物",
+    "id": "Bagasi transit",
+    "reading": "のりつぎてにもつ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "経由",
+    "id": "Transit melalui",
+    "reading": "けいゆ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "乗継",
+    "id": "Transit",
+    "reading": "のりつぎ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "乗継便",
+    "id": "Penerbangan lanjutan",
+    "reading": "のりつぎびん",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "転送",
+    "id": "Transfer/pengiriman lanjutan",
+    "reading": "てんそう",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "バゲージメイクアップ",
+    "id": "Penataan bagasi keberangkatan",
+    "reading": "ばげーじめいくあっぷ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 3",
+    "jp": "メイクアップエリア",
+    "id": "Area penataan bagasi",
+    "reading": "めいくあっぷえりあ",
+    "source": "PDF-GROUND-HANDLING / SUPPLEMENTAL"
+  }
+]

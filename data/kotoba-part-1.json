@@ -1,0 +1,1402 @@
+[
+  {
+    "part": "PART 1",
+    "jp": "安全運航",
+    "id": "Operasi penerbangan yang aman",
+    "reading": "あんぜんうんこう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "航空安全",
+    "id": "Keselamatan penerbangan",
+    "reading": "こうくうあんぜん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全管理",
+    "id": "Manajemen keselamatan",
+    "reading": "あんぜんかんり",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全意識",
+    "id": "Kesadaran keselamatan",
+    "reading": "あんぜんいしき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全確保",
+    "id": "Memastikan keselamatan",
+    "reading": "あんぜんかくほ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全対策",
+    "id": "Tindakan keselamatan",
+    "reading": "あんぜんたいさく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全基準",
+    "id": "Standar keselamatan",
+    "reading": "あんぜんきじゅん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全規則",
+    "id": "Peraturan keselamatan",
+    "reading": "あんぜんきそく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全手順",
+    "id": "Prosedur keselamatan",
+    "reading": "あんぜんてじゅん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全確認",
+    "id": "Pemeriksaan keselamatan",
+    "reading": "あんぜんかくにん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全装置",
+    "id": "Perangkat keselamatan",
+    "reading": "あんぜんそうち",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全区域",
+    "id": "Zona aman",
+    "reading": "あんぜんくいき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "危険",
+    "id": "Bahaya",
+    "reading": "きけん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "危険区域",
+    "id": "Area berbahaya",
+    "reading": "きけんくいき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "危険性",
+    "id": "Potensi bahaya",
+    "reading": "きけんせい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "危険予知",
+    "id": "Prediksi bahaya",
+    "reading": "きけんよち",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "危険物",
+    "id": "Barang berbahaya",
+    "reading": "きけんぶつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "危険物輸送",
+    "id": "Pengangkutan barang berbahaya",
+    "reading": "きけんぶつゆそう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "危険物取扱",
+    "id": "Penanganan barang berbahaya",
+    "reading": "きけんぶつとりあつかい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "危険物規則",
+    "id": "Peraturan barang berbahaya",
+    "reading": "きけんぶつきそく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "火災",
+    "id": "Kebakaran",
+    "reading": "かさい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "火災予防",
+    "id": "Pencegahan kebakaran",
+    "reading": "かさいよぼう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "消火",
+    "id": "Pemadaman kebakaran",
+    "reading": "しょうか",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "消火器",
+    "id": "Alat pemadam api",
+    "reading": "しょうかき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "防火",
+    "id": "Pencegahan kebakaran",
+    "reading": "ぼうか",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "防火設備",
+    "id": "Peralatan pencegah kebakaran",
+    "reading": "ぼうかせつび",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "煙",
+    "id": "Asap",
+    "reading": "けむり",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "爆発",
+    "id": "Ledakan",
+    "reading": "ばくはつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "引火",
+    "id": "Penyalaan",
+    "reading": "いんか",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "可燃性",
+    "id": "Mudah terbakar",
+    "reading": "かねんせい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "酸化性",
+    "id": "Sifat pengoksidasi",
+    "reading": "さんかせい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "毒物",
+    "id": "Zat beracun",
+    "reading": "どくぶつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "放射性物質",
+    "id": "Bahan radioaktif",
+    "reading": "ほうしゃせいぶっしつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "腐食性物質",
+    "id": "Zat korosif",
+    "reading": "ふしょくせいぶっしつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "有害物質",
+    "id": "Zat berbahaya",
+    "reading": "ゆうがいぶっしつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "火薬類",
+    "id": "Bahan peledak",
+    "reading": "かやくるい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "高圧ガス",
+    "id": "Gas bertekanan tinggi",
+    "reading": "こうあつがす",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "引火性液体",
+    "id": "Cairan mudah terbakar",
+    "reading": "いんかせいえきたい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "可燃性物質",
+    "id": "Bahan mudah terbakar",
+    "reading": "かねんせいぶっしつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "酸化性物質",
+    "id": "Bahan pengoksidasi",
+    "reading": "さんかせいぶっしつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "航空保安",
+    "id": "Keamanan penerbangan",
+    "reading": "こうくうほあん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "保安",
+    "id": "Keamanan/aviation security",
+    "reading": "ほあん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "保安検査",
+    "id": "Pemeriksaan keamanan",
+    "reading": "ほあんけんさ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "保安区域",
+    "id": "Area keamanan",
+    "reading": "ほあんくいき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "立入制限",
+    "id": "Pembatasan akses",
+    "reading": "たちいりせいげん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "立入禁止",
+    "id": "Dilarang masuk",
+    "reading": "たちいりきんし",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "身分証明書",
+    "id": "Kartu identitas",
+    "reading": "みぶんしょうめいしょ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "入場証",
+    "id": "Kartu akses",
+    "reading": "にゅうじょうしょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "許可",
+    "id": "Izin",
+    "reading": "きょか",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "許可証",
+    "id": "Surat izin",
+    "reading": "きょかしょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "本人確認",
+    "id": "Verifikasi identitas",
+    "reading": "ほんにんかくにん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "不審者",
+    "id": "Orang mencurigakan",
+    "reading": "ふしんしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "不審行動",
+    "id": "Perilaku mencurigakan",
+    "reading": "ふしんこうどう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "異常",
+    "id": "Kelainan/abnormalitas",
+    "reading": "いじょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "異常発生",
+    "id": "Terjadi kelainan",
+    "reading": "いじょうはっせい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "異常時",
+    "id": "Saat terjadi kelainan",
+    "reading": "いじょうじ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "異常確認",
+    "id": "Pemeriksaan kelainan",
+    "reading": "いじょうかくにん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "緊急",
+    "id": "Darurat",
+    "reading": "きんきゅう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "緊急事態",
+    "id": "Keadaan darurat",
+    "reading": "きんきゅうじたい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "緊急対応",
+    "id": "Penanganan darurat",
+    "reading": "きんきゅうたいおう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "緊急連絡",
+    "id": "Kontak darurat",
+    "reading": "きんきゅうれんらく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "緊急停止",
+    "id": "Penghentian darurat",
+    "reading": "きんきゅうていし",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "緊急脱出",
+    "id": "Evakuasi darurat",
+    "reading": "きんきゅうだっしゅつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "避難",
+    "id": "Evakuasi",
+    "reading": "ひなん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "避難経路",
+    "id": "Rute evakuasi",
+    "reading": "ひなんけいろ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "避難場所",
+    "id": "Tempat evakuasi",
+    "reading": "ひなんばしょ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "避難誘導",
+    "id": "Pemanduan evakuasi",
+    "reading": "ひなんゆうどう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "警報",
+    "id": "Alarm/peringatan",
+    "reading": "けいほう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "警告",
+    "id": "Peringatan",
+    "reading": "けいこく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "警戒",
+    "id": "Kewaspadaan",
+    "reading": "けいかい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "連絡体制",
+    "id": "Sistem komunikasi",
+    "reading": "れんらくたいせい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "連絡先",
+    "id": "Kontak",
+    "reading": "れんらくさき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "通報",
+    "id": "Pelaporan darurat",
+    "reading": "つうほう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "報知",
+    "id": "Pemberitahuan",
+    "reading": "ほうち",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "事故",
+    "id": "Kecelakaan",
+    "reading": "じこ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "事故防止",
+    "id": "Pencegahan kecelakaan",
+    "reading": "じこぼうし",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "事故原因",
+    "id": "Penyebab kecelakaan",
+    "reading": "じこげんいん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "事故調査",
+    "id": "Investigasi kecelakaan",
+    "reading": "じこちょうさ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "事故報告",
+    "id": "Laporan kecelakaan",
+    "reading": "じこほうこく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "災害",
+    "id": "Bencana",
+    "reading": "さいがい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "災害対応",
+    "id": "Penanganan bencana",
+    "reading": "さいがいたいおう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "負傷",
+    "id": "Cedera",
+    "reading": "ふしょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "負傷者",
+    "id": "Orang terluka",
+    "reading": "ふしょうしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "救助",
+    "id": "Penyelamatan",
+    "reading": "きゅうじょ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "救急",
+    "id": "Pertolongan darurat",
+    "reading": "きゅうきゅう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "応急処置",
+    "id": "Pertolongan pertama",
+    "reading": "おうきゅうしょち",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "救急箱",
+    "id": "Kotak P3K",
+    "reading": "きゅうきゅうばこ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "保護具",
+    "id": "Alat pelindung",
+    "reading": "ほごぐ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "保護帽",
+    "id": "Helm pelindung",
+    "reading": "ほごぼう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全帽",
+    "id": "Helm keselamatan",
+    "reading": "あんぜんぼう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "安全靴",
+    "id": "Sepatu keselamatan",
+    "reading": "あんぜんぐつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "手袋",
+    "id": "Sarung tangan",
+    "reading": "てぶくろ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "保護手袋",
+    "id": "Sarung tangan pelindung",
+    "reading": "ほごてぶくろ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "保護眼鏡",
+    "id": "Kacamata pelindung",
+    "reading": "ほごめがね",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "耳栓",
+    "id": "Sumbat telinga",
+    "reading": "みみせん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "防音保護具",
+    "id": "Pelindung pendengaran",
+    "reading": "ぼうおんほごぐ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "反射ベスト",
+    "id": "Rompi reflektif",
+    "reading": "はんしゃべすと",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業服",
+    "id": "Pakaian kerja",
+    "reading": "さぎょうふく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "服装",
+    "id": "Pakaian",
+    "reading": "ふくそう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "身だしなみ",
+    "id": "Kerapian diri",
+    "reading": "みだしなみ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "着用",
+    "id": "Memakai",
+    "reading": "ちゃくよう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "脱着",
+    "id": "Memasang/melepas",
+    "reading": "だっちゃく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "正しく",
+    "id": "Dengan benar",
+    "reading": "ただしく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "確実に",
+    "id": "Dengan pasti",
+    "reading": "かくじつに",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "慎重",
+    "id": "Hati-hati",
+    "reading": "しんちょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "無理",
+    "id": "Memaksakan",
+    "reading": "むり",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "無理な作業",
+    "id": "Pekerjaan yang dipaksakan",
+    "reading": "むりなさぎょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業前",
+    "id": "Sebelum bekerja",
+    "reading": "さぎょうまえ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業中",
+    "id": "Saat bekerja",
+    "reading": "さぎょうちゅう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業後",
+    "id": "Setelah bekerja",
+    "reading": "さぎょうご",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業開始",
+    "id": "Mulai pekerjaan",
+    "reading": "さぎょうかいし",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業終了",
+    "id": "Selesai pekerjaan",
+    "reading": "さぎょうしゅうりょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業手順",
+    "id": "Prosedur kerja",
+    "reading": "さぎょうてじゅん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業方法",
+    "id": "Metode kerja",
+    "reading": "さぎょうほうほう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "標準作業",
+    "id": "Pekerjaan standar",
+    "reading": "ひょうじゅんさぎょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "標準手順",
+    "id": "Prosedur standar",
+    "reading": "ひょうじゅんてじゅん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "規定",
+    "id": "Ketentuan",
+    "reading": "きてい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "規則",
+    "id": "Peraturan",
+    "reading": "きそく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "遵守",
+    "id": "Kepatuhan",
+    "reading": "じゅんしゅ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "規程",
+    "id": "Peraturan resmi",
+    "reading": "きてい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "手順書",
+    "id": "Dokumen prosedur",
+    "reading": "てじゅんしょ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "マニュアル",
+    "id": "Manual",
+    "reading": "まにゅある",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "要領",
+    "id": "Tata cara/petunjuk",
+    "reading": "ようりょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "業務実施規程",
+    "id": "Peraturan pelaksanaan kerja",
+    "reading": "ぎょうむじっしきてい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "会社規程",
+    "id": "Peraturan perusahaan",
+    "reading": "かいしゃきてい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "指示事項",
+    "id": "Hal yang diinstruksikan",
+    "reading": "しじじこう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "指示書",
+    "id": "Lembar instruksi",
+    "reading": "しじしょ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "教育",
+    "id": "Pelatihan",
+    "reading": "きょういく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "訓練",
+    "id": "Pelatihan/praktik",
+    "reading": "くんれん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "教育訓練",
+    "id": "Pelatihan dan pendidikan",
+    "reading": "きょういくくんれん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "技能",
+    "id": "Keterampilan",
+    "reading": "ぎのう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "技術",
+    "id": "Teknik/teknologi",
+    "reading": "ぎじゅつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "知識",
+    "id": "Pengetahuan",
+    "reading": "ちしき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "経験",
+    "id": "Pengalaman",
+    "reading": "けいけん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "資格",
+    "id": "Kualifikasi",
+    "reading": "しかく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業資格",
+    "id": "Kualifikasi kerja",
+    "reading": "さぎょうしかく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "有資格者",
+    "id": "Personel berkualifikasi",
+    "reading": "ゆうしかくしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "監督",
+    "id": "Pengawasan",
+    "reading": "かんとく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "監督者",
+    "id": "Supervisor",
+    "reading": "かんとくしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "責任者",
+    "id": "Penanggung jawab",
+    "reading": "せきにんしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "担当者",
+    "id": "Petugas yang bertanggung jawab",
+    "reading": "たんとうしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業責任者",
+    "id": "Penanggung jawab pekerjaan",
+    "reading": "さぎょうせきにんしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "確認者",
+    "id": "Pemeriksa",
+    "reading": "かくにんしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "点検者",
+    "id": "Petugas inspeksi",
+    "reading": "てんけんしゃ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "品質",
+    "id": "Kualitas",
+    "reading": "ひんしつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "品質管理",
+    "id": "Manajemen kualitas",
+    "reading": "ひんしつかんり",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "品質保証",
+    "id": "Jaminan kualitas",
+    "reading": "ひんしつほしょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "品質向上",
+    "id": "Peningkatan kualitas",
+    "reading": "ひんしつこうじょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "サービス品質",
+    "id": "Kualitas layanan",
+    "reading": "さーびすひんしつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "顧客満足",
+    "id": "Kepuasan pelanggan",
+    "reading": "こきゃくまんぞく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "正確性",
+    "id": "Akurasi",
+    "reading": "せいかくせい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "信頼性",
+    "id": "Keandalan",
+    "reading": "しんらいせい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "効率",
+    "id": "Efisiensi",
+    "reading": "こうりつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "効率化",
+    "id": "Peningkatan efisiensi",
+    "reading": "こうりつか",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "改善",
+    "id": "Perbaikan",
+    "reading": "かいぜん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "継続的改善",
+    "id": "Perbaikan berkelanjutan",
+    "reading": "けいぞくてきかいぜん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "原因",
+    "id": "Penyebab",
+    "reading": "げんいん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "結果",
+    "id": "Hasil",
+    "reading": "けっか",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "対策",
+    "id": "Tindakan penanggulangan",
+    "reading": "たいさく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "再発防止",
+    "id": "Pencegahan terulang",
+    "reading": "さいはつぼうし",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "予防",
+    "id": "Pencegahan",
+    "reading": "よぼう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "予防措置",
+    "id": "Tindakan pencegahan",
+    "reading": "よぼうそち",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "ヒヤリ・ハット",
+    "id": "Near miss",
+    "reading": "ひやりはっと",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "ヒヤリ・ハット事例",
+    "id": "Kasus near miss",
+    "reading": "ひやりはっとじれい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "報告書",
+    "id": "Laporan tertulis",
+    "reading": "ほうこくしょ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "記録",
+    "id": "Catatan",
+    "reading": "きろく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "記録管理",
+    "id": "Manajemen catatan",
+    "reading": "きろくかんり",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "作業記録",
+    "id": "Catatan pekerjaan",
+    "reading": "さぎょうきろく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "確認記録",
+    "id": "Catatan pemeriksaan",
+    "reading": "かくにんきろく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "チェックリスト",
+    "id": "Daftar pemeriksaan",
+    "reading": "ちぇっくりすと",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "チェック",
+    "id": "Pemeriksaan",
+    "reading": "ちぇっく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "ダブルチェック",
+    "id": "Pemeriksaan ganda",
+    "reading": "だぶるちぇっく",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "指差し",
+    "id": "Menunjuk dengan jari",
+    "reading": "ゆびさし",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "呼称",
+    "id": "Menyebutkan dengan suara",
+    "reading": "こしょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "指差呼称確認",
+    "id": "Konfirmasi dengan menunjuk dan menyebut",
+    "reading": "しさこしょうかくにん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "声出し",
+    "id": "Mengucapkan dengan suara",
+    "reading": "こえだし",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "復唱",
+    "id": "Mengulang ucapan",
+    "reading": "ふくしょう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "意思確認",
+    "id": "Konfirmasi maksud",
+    "reading": "いしかくにん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "情報共有",
+    "id": "Berbagi informasi",
+    "reading": "じょうほうきょうゆう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "情報伝達",
+    "id": "Penyampaian informasi",
+    "reading": "じょうほうでんたつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "情報確認",
+    "id": "Konfirmasi informasi",
+    "reading": "じょうほうかくにん",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "変更",
+    "id": "Perubahan",
+    "reading": "へんこう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "変更管理",
+    "id": "Manajemen perubahan",
+    "reading": "へんこうかんり",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "最新情報",
+    "id": "Informasi terbaru",
+    "reading": "さいしんじょうほう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "正確な情報",
+    "id": "Informasi yang akurat",
+    "reading": "せいかくなじょうほう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "誤情報",
+    "id": "Informasi salah",
+    "reading": "ごじょうほう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "天気",
+    "id": "Cuaca",
+    "reading": "てんき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "悪天候",
+    "id": "Cuaca buruk",
+    "reading": "あくてんこう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "強風",
+    "id": "Angin kencang",
+    "reading": "きょうふう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "突風",
+    "id": "Hembusan angin",
+    "reading": "とっぷう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "雷",
+    "id": "Petir",
+    "reading": "かみなり",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "雷雨",
+    "id": "Hujan petir",
+    "reading": "らいう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "大雨",
+    "id": "Hujan lebat",
+    "reading": "おおあめ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "雪",
+    "id": "Salju",
+    "reading": "ゆき",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "降雪",
+    "id": "Turunnya salju",
+    "reading": "こうせつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "凍結",
+    "id": "Pembekuan",
+    "reading": "とうけつ",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "霧",
+    "id": "Kabut",
+    "reading": "きり",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "視程",
+    "id": "Jarak pandang",
+    "reading": "してい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "視界",
+    "id": "Visibilitas",
+    "reading": "しかい",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  },
+  {
+    "part": "PART 1",
+    "jp": "気象情報",
+    "id": "Informasi cuaca",
+    "reading": "きしょうじょうほう",
+    "source": "PDF-SAFETY-QUALITY / SUPPLEMENTAL"
+  }
+]
