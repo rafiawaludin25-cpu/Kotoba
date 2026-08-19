@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Ground Handling Kotoba Game</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <div class="top"><div class="brand">✈️ Ground Handling <span>Kotoba Game</span></div><div class="pill">🇯🇵 日本語 × 🇮🇩 Indonesia</div></div>
+  <div class="card profile-card">
+    <div class="profile-head"><div><span class="label">PROFILE</span><h2>👤 <input id="profileName" value="Player" maxlength="24" aria-label="Nama profil"></h2></div><div class="level-chip">LEVEL <b id="levelValue">1</b></div></div>
+    <div class="xp-row"><span>⭐ XP</span><b id="xpValue">0 / 500</b></div><div class="xp-progress"><i id="xpBar"></i></div>
+    <div class="profile-mini"><span>🪙 <b id="coinValue">0</b> Coin</span><span>🎮 <b id="statRounds">0</b> Ronde</span><span>🎯 <b id="statAccuracy">0%</b> Akurasi</span><span>🔥 <b id="statBest">0</b> Best Streak</span></div>
+  </div>
+  <div class="card stats-card">
+    <div class="stats-head"><div><span class="label">STATISTIK</span><h3>Perjalanan Belajar</h3></div><button id="resetProgress" class="mini-btn">Reset</button></div>
+    <div class="stat-grid"><div><b id="statXP">0</b><small>Total XP</small></div><div><b id="statScore">0</b><small>Total Skor</small></div><div><b id="statPerfect">0</b><small>Perfect</small></div><div><b id="statLearn">0</b><small>Belajar</small></div><div><b id="statTime">0</b><small>Time Attack</small></div><div><b id="statHard">0</b><small>Hardcore</small></div><div><b id="statStreak">0</b><small>Streak Mode</small></div></div>
+  </div>
+  <div class="card" id="game">
+    <div class="stats">
+      <div class="stat"><b id="score">0</b><small>Skor</small></div>
+      <div class="stat"><b id="streak">0</b><small>Streak</small></div>
+      <div class="stat"><b id="qnum">1</b><small>Soal</small></div>
+      <div class="stat"><b id="timer">15</b><small>Detik</small></div><div class="stat mode-stat"><b id="modeBadge">Normal</b><small>Mode</small></div>
+    </div>
+    <div class="controls">
+      <div class="control"><label>Jumlah soal</label><select id="roundSize"><option value="5">5 soal</option><option value="10" selected>10 soal</option><option value="20">20 soal</option><option value="30">30 soal</option><option value="50">50 soal</option><option value="ALL">Semua soal</option></select></div>
+      <div class="control"><label>Bagian</label><select id="part"><option value="ALL">Semua Part</option><option>PART 2</option><option>PART 3</option><option>PART 4</option></select></div>
+      <div class="control"><label>Mode Soal</label><select id="mode"><option value="jp-id">Jepang → pilih arti</option><option value="id-jp">Indonesia → pilih kotoba Jepang</option></select></div>
+      <div class="control"><label>Mode Game</label><select id="gameMode"><option value="normal">🎯 Normal</option><option value="learn">📖 Belajar</option><option value="timeattack">⚡ Time Attack</option><option value="hardcore">💀 Hardcore</option><option value="streak">🔥 Streak</option></select></div>
+    </div>
+    <div class="question">
+      <div class="label" id="label">Apa arti kotoba ini?</div>
+      <div class="word" id="word">---</div>
+      <div class="hint" id="hint">Pilih jawaban yang benar.</div>
+      <div class="answers" id="answers"></div>
+      <button class="next" id="next" disabled>Soal berikutnya →</button>
+      <div class="progress"><div class="bar" id="bar"></div></div>
+    </div>
+    <div class="footer"><span id="source">Sumber: PART 2–4 Ground Handling</span><span>5 / 10 / 20 / 30 / 50 / semua soal per ronde</span></div>
+  </div>
+  <div class="card" id="result">
+    <div class="label">RONDE SELESAI 🎉</div>
+    <div class="bigscore" id="finalScore">0</div>
+    <p id="finalText"></p>
+    <button class="restart" onclick="startGame()">Main Lagi</button>
+  </div>
+</div>
+
+
+
+
+<style>
+:root{
+  --cozy-bg:#f7efe3;--cozy-card:#fffaf2;--cozy-text:#5b4636;--cozy-accent:#c78b67;
+  --cozy-soft:#ead7c5;--cozy-green:#8fa58a;
+}
+body{
+  background:
+    radial-gradient(circle at 15% 15%,rgba(255,255,255,.75),transparent 28%),
+    radial-gradient(circle at 85% 10%,rgba(234,215,197,.55),transparent 30%),
+    linear-gradient(135deg,var(--cozy-bg),#f3e4d4)!important;
+  color:var(--cozy-text)!important;
+}
+.card,.panel,.game-card,.question-card,.modal{
+  background:rgba(255,250,242,.92)!important;
+  border-color:var(--cozy-soft)!important;
+  box-shadow:0 12px 30px rgba(91,70,54,.10)!important;
+}
+button{
+  border-radius:14px!important;
+}
+#cozyMusic{
+  position:fixed;left:78px;top:16px;z-index:99999;width:260px;padding:12px 14px;
+  background:rgba(255,250,242,.96);border:1px solid var(--cozy-soft);border-radius:18px;
+  box-shadow:0 10px 28px rgba(91,70,54,.16);font-family:inherit;color:var(--cozy-text);
+  backdrop-filter:blur(8px)
+}
+.musicTitle{font-weight:800;font-size:13px;margin-bottom:7px}
+.musicRow{display:flex;gap:6px;align-items:center}
+.musicRow button{padding:7px 9px;border:1px solid var(--cozy-soft);background:#fff;color:var(--cozy-text);cursor:pointer}
+#trackName{margin-top:7px;font-size:11px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;opacity:.8}
+</style>
+
+
+<style>
+#themeToggle{
+  position:fixed;right:14px;bottom:145px;z-index:100000;
+  width:48px;height:48px;border-radius:50%!important;border:1px solid #ead7c5;
+  background:#fffaf2;color:#5b4636;font-size:22px;cursor:pointer;
+  box-shadow:0 8px 22px rgba(91,70,54,.16);
+  display:flex;align-items:center;justify-content:center;
+  transition:transform .2s,background .2s;
+}
+#themeToggle:hover{transform:scale(1.08)}
+
+body.dark-mode{
+  background:
+    radial-gradient(circle at 15% 15%,rgba(80,70,95,.32),transparent 28%),
+    radial-gradient(circle at 85% 10%,rgba(48,55,80,.35),transparent 30%),
+    linear-gradient(135deg,#171722,#252334)!important;
+  color:#eee8df!important;
+}
+body.dark-mode .card,
+body.dark-mode .panel,
+body.dark-mode .game-card,
+body.dark-mode .question-card,
+body.dark-mode .modal{
+  background:rgba(35,34,47,.94)!important;
+  border-color:#4a4657!important;
+  color:#eee8df!important;
+  box-shadow:0 12px 30px rgba(0,0,0,.28)!important;
+}
+body.dark-mode button{
+  color:#eee8df;
+}
+body.dark-mode #cozyMusic{
+  background:rgba(35,34,47,.96);
+  border-color:#4a4657;
+  color:#eee8df;
+}
+body.dark-mode .musicRow button{
+  background:#2b2938;
+  border-color:#4a4657;
+  color:#eee8df;
+}
+body.dark-mode #themeToggle{
+  background:#2b2938;color:#ffe8a3;border-color:#4a4657;
+}
+@media(max-width:600px){
+  #themeToggle{bottom:135px;right:12px;width:44px;height:44px}
+  #musicBurger{left:12px;top:12px;width:46px;height:46px}
+}
+
+#musicBurger{
+  position:fixed;left:16px;top:16px;z-index:100000;
+  width:50px;height:50px;border-radius:15px!important;
+  border:1px solid var(--cozy-soft,#ead7c5);
+  background:#fffaf2;color:#5b4636;cursor:pointer;
+  box-shadow:0 8px 22px rgba(91,70,54,.16);
+  display:none;align-items:center;justify-content:center;
+  transition:transform .25s ease,box-shadow .25s ease;
+  animation:burgerFloat 3s ease-in-out infinite;
+}
+#musicBurger:hover{
+  transform:scale(1.08) rotate(-2deg);
+  box-shadow:0 12px 28px rgba(91,70,54,.22);
+}
+#musicBurger .burgerIcon{
+  width:25px;height:18px;display:flex;flex-direction:column;
+  justify-content:space-between;
+}
+#musicBurger .burgerIcon span{
+  display:block;height:3px;border-radius:4px;background:currentColor;
+  transition:transform .25s ease,opacity .2s ease,width .25s ease;
+}
+#musicBurger:hover .burgerIcon span:nth-child(1){width:19px}
+#musicBurger:hover .burgerIcon span:nth-child(3){width:19px;margin-left:6px}
+@keyframes burgerFloat{
+  0%,100%{transform:translateY(0)}
+  50%{transform:translateY(-4px)}
+}
+#cozyMusic.collapsed{display:none!important}
+#musicHide{
+  float:right;border:0!important;background:transparent!important;
+  color:inherit;font-size:16px;cursor:pointer;padding:0 3px;
+}
+body.dark-mode #musicBurger{
+  background:#2b2938;color:#eee8df;border-color:#4a4657;
+}
+
+/* Song bar rolling/sliding animation */
+#cozyMusic{
+  transform-origin: top left;
+  animation-duration:.38s;
+  animation-timing-function:cubic-bezier(.22,.8,.25,1);
+  animation-fill-mode:both;
+}
+#cozyMusic.music-opening{
+  animation-name:musicRollOpen;
+}
+#cozyMusic.music-closing{
+  animation-name:musicRollClose;
+}
+@keyframes musicRollOpen{
+  0%{opacity:0;transform:translateX(-45px) scaleX(.35) scaleY(.82) rotate(-2deg);transform-origin:left center}
+  55%{opacity:1;transform:translateX(8px) scaleX(1.04) scaleY(1.02) rotate(1deg);transform-origin:left center}
+  100%{opacity:1;transform:translateX(0) scaleX(1) scaleY(1) rotate(0);transform-origin:left center}
+}
+@keyframes musicRollClose{
+  0%{opacity:1;transform:translateX(0) scaleX(1) scaleY(1) rotate(0);transform-origin:left center}
+  100%{opacity:0;transform:translateX(-45px) scaleX(.35) scaleY(.82) rotate(-2deg);transform-origin:left center}
+}
+</style>
+
+
+<style>
+.controls{grid-template-columns:repeat(3,1fr)}
+.profile-card{margin-bottom:18px}.profile-head,.stats-head{display:flex;align-items:center;justify-content:space-between;gap:12px}.profile-head h2{margin:3px 0 0}.profile-head input{font-weight:800;font-size:22px;border:0;border-bottom:2px solid var(--cozy-soft);background:transparent;color:inherit;outline:none;max-width:180px}.level-chip{padding:10px 14px;border-radius:999px;background:#f3dfc9;color:#704d38;font-weight:800}.xp-row{display:flex;justify-content:space-between;margin-top:12px}.xp-progress{height:12px;background:#eadfd4;border-radius:999px;overflow:hidden;margin:7px 0 12px}.xp-progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,#c78b67,#8fa58a);border-radius:999px;transition:width .5s ease}.profile-mini{display:flex;gap:12px;flex-wrap:wrap;color:#7a6657;font-size:13px}.stats-card{margin-bottom:18px}.stats-head h3{margin:3px 0}.mini-btn{border:1px solid var(--cozy-soft);background:transparent;color:inherit;padding:7px 10px;border-radius:10px!important;cursor:pointer}.stat-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin-top:12px}.stat-grid>div{padding:9px 5px;border:1px solid var(--cozy-soft);border-radius:12px;text-align:center}.stat-grid b{display:block;font-size:17px}.stat-grid small{font-size:10px;color:#8b7768}.mode-stat b{font-size:13px}.level-modal{position:fixed;inset:0;z-index:200000;background:rgba(25,18,15,.55);display:grid;place-items:center;padding:20px}.level-modal[hidden]{display:none}.level-modal-box{position:relative;max-width:360px;width:100%;text-align:center;padding:34px 24px;border-radius:28px;background:#fffaf2;border:1px solid #ead7c5;box-shadow:0 30px 80px rgba(0,0,0,.3);animation:levelPop .5s cubic-bezier(.2,.9,.2,1)}.level-burst{font-size:42px;animation:levelBounce 1s ease-in-out infinite}.level-modal-box h2{font-size:32px;margin:8px 0}.level-modal-box strong{display:block;margin:14px 0 20px}.dark-mode .level-modal-box{background:#23222f;border-color:#4a4657;color:#eee8df}@keyframes levelPop{0%{opacity:0;transform:scale(.55) rotate(-4deg)}70%{transform:scale(1.06) rotate(1deg)}100%{opacity:1;transform:scale(1) rotate(0)}}@keyframes levelBounce{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-8px) rotate(3deg)}}.result-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;text-align:left;margin:16px 0}.result-grid>div{padding:10px;border:1px solid var(--cozy-soft);border-radius:12px}.result-grid b{float:right}@media(max-width:760px){.controls{grid-template-columns:1fr 1fr}.stat-grid{grid-template-columns:repeat(4,1fr)}}@media(max-width:520px){.controls{grid-template-columns:1fr}.stat-grid{grid-template-columns:repeat(2,1fr)}.profile-head{align-items:flex-start}.profile-head input{max-width:140px}}
+</style>
+<script src="js/game.js"></script>
+<script src="js/music.js"></script>
+<script src="js/theme.js"></script>
+<div class="level-modal" id="levelUp" hidden><div class="level-modal-box"><div class="level-burst">✨🏆✨</div><h2 id="levelUpTitle">LEVEL UP! 🎉</h2><p id="levelUpText"></p><strong id="levelUpReward"></strong><button class="restart" id="levelUpClose">Lanjut</button></div></div>
+</body>
+</html>
